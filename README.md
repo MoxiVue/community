@@ -5,6 +5,7 @@ The place to suggest features, vote on ideas and ask questions about [MoxiVue](h
 - **Ideas**: one idea per discussion; vote with 👍 on the ones you want. We mark ideas as planned, in progress
   or done and link the release that brings them.
 - **Q&A**: questions about installing and using MoxiVue.
+- **Issues**: bug reports, with a short form. We label them and link the release that fixes them.
 
 **Not here:**
 - Security problems: write to security@moxivue.com, as described at https://moxivue.com/disclosure.html.

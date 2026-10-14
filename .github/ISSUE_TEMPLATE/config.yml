@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://moxivue.com/disclosure.html
+    about: Report it privately to security@moxivue.com, never in a public issue.
+  - name: Idea or question
+    url: https://github.com/MoxiVue/community/discussions
+    about: Ideas, votes and questions are in Discussions.
+  - name: A problem that involves your own machines' details
+    url: https://moxivue.com/feedback.html
+    about: Send it from the app, encrypted, so that only we can read it.

@@ -1,0 +1,64 @@
+name: Bug report
+description: Something in MoxiVue does not work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This page is public.** Do not post names, addresses or logs of your own machines or network, pairing
+        codes, recovery codes, tokens or passwords. If the problem needs those, send it from the app instead
+        ("Report a problem" at the bottom of the window, or `moxivue feedback --diagnostics` on a server): it is
+        encrypted on your machine so that only we can read it.
+
+        **Security problems** never go here: write to security@moxivue.com (https://moxivue.com/disclosure.html).
+  - type: input
+    id: version
+    attributes:
+      label: MoxiVue version
+      description: "`moxivue version`, or Settings → About"
+      placeholder: "4.10.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - Ubuntu 22.04
+        - Ubuntu 24.04
+        - Ubuntu 26.04
+        - Debian
+        - Other (say which below)
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - Desktop (with the window)
+        - Server (headless)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you saw. Leave out anything that identifies your machines or network.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before posting
+      options:
+        - label: I have left out machine names, addresses, logs, codes, tokens and passwords.
+          required: true
+        - label: This is not a security problem (those go to security@moxivue.com).
+          required: true
