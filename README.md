@@ -10,6 +10,7 @@ The place to suggest features, vote on ideas and ask questions about [MoxiVue](h
 - Security problems: write to security@moxivue.com, as described at https://moxivue.com/disclosure.html.
   Please do not post them publicly.
 - Problems with your own machines that include their names, addresses or logs: send them from the app
-  (Help → Report a problem), which encrypts them so that only we can read them.
+  ("Report a problem" at the bottom of the window, or `moxivue feedback` on a server), which encrypts them so
+  that only we can read them.
 
 Everything posted here is public and visible to anyone, including your GitHub user name.
